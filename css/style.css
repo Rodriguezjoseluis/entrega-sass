@@ -1,0 +1,65 @@
+/*css index*/
+header .barra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #eef4ff;
+  padding-bottom: 20px; }
+  @media (max-width: 500px) {
+    header .barra {
+      display: block; } }
+  header .barra img {
+    width: 6.5rem;
+    height: 5.5rem; }
+
+main {
+  background-color: #eef4ff;
+  padding-bottom: 5px; }
+  main .texto-i {
+    border: 2px solid #140303;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    background-color: #A3BFD9;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center; }
+  main h2 {
+    border: 2px solid #140303;
+    background-color: #35539b;
+    color: #BFCDD9;
+    padding: 0.5rem;
+    margin: 5% 70% 5% 0%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end; }
+    @media (max-width: 600px) {
+      main h2 {
+        border: 2px solid #140303;
+        padding: 5px 20px 5px 200px;
+        font-size: 1rem !important;
+        display: flex; } }
+
+.main-card {
+  background-color: #BFCDD9;
+  margin: 5% 10% 5% 10%;
+  padding: 2.5%;
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 500px) {
+    .main-card {
+      display: flex;
+      display: block; } }
+
+.footer {
+  background-color: #35539b;
+  border-top: 10px solid #000E55;
+  padding: 10px 0;
+  background-color: #35539b;
+  padding: 0px 0px 5px 0;
+  border-bottom: 10px solid #000E55;
+  margin: 0px 0px 20px 0;
+  color: #A3BFD9; }
+  .footer .footeritem {
+    font-size: 15px;
+    color: #A3BFD9; }

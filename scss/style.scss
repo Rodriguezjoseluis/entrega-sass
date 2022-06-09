@@ -1,0 +1,103 @@
+
+/*css index*/
+
+$color-principal: #eef4ff;
+$color-secundario: #35539b;
+$color-terciario: #A3BFD9;
+$color-letras: #BFCDD9;
+$medida-principal: 1.5rem;
+
+header{
+.barra {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:
+     $color-principal;
+
+    padding-bottom: 20px;
+    @media (max-width: 500px){
+        
+          display: block;
+        
+    }
+
+    img{
+        width: 6.5rem;
+        height: 5.5rem;
+
+    }
+
+  }
+  
+}
+
+main{
+    background-color:$color-principal;
+    padding-bottom: 5px;
+    .texto-i {
+        border: 2px solid rgb(20, 3, 3);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 50px;
+        background-color:$color-terciario;
+        font-size:$medida-principal;
+        display: flex;
+        justify-content: center;
+    
+    }
+      h2 {
+        border: 2px solid rgb(20, 3, 3);
+        background-color:$color-secundario;
+        color: $color-letras;
+        padding: 0.5rem;
+        margin: 5% 70% 5% 0%;
+        font-size:$medida-principal;
+        display: flex;
+        justify-content: flex-end;
+
+        @media (max-width:600px){
+           
+            border: 2px solid rgb(20, 3, 3);
+            padding: 5px 20px 5px 200px;
+            font-size: 1rem !important;
+            display: flex;
+      
+        } 
+      }
+    }
+      .main-card {
+        background-color: #BFCDD9;
+        margin: 5% 10% 5% 10%;
+        padding: 2.5%;
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:500px){
+            display: flex;
+            display: block;
+           
+         }
+
+        
+      
+      
+}
+
+.footer {
+ 
+    background-color: $color-secundario;
+    border-top: 10px solid #000E55;
+    padding: 10px 0;
+    background-color: $color-secundario;
+    padding: 0px 0px 5px 0;
+    border-bottom: 10px solid #000E55;
+    margin: 0px 0px 20px 0;
+    color: $color-terciario;
+    .footeritem {
+        font-size: 15px;
+        color: $color-terciario;
+      }
+      
+  
+}
