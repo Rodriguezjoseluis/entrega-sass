@@ -1,0 +1,30 @@
+
+@import"variables";
+
+%texto{
+    border: 2px solid #140303;
+    background-color:$color-secundario;
+    color: $color-letras;
+    padding: 0.5rem;
+    margin: 5% 70% 5% 0%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end; 
+    @media (max-width: 600px) {
+        border: 2px solid #140303;
+        padding: 5px 20px 5px 200px;
+        font-size: 1rem !important;
+        display: flex; } 
+    }
+
+    %texto-i{
+        border: 2px solid rgb(20, 3, 3);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 50px;
+        background-color:$color-terciario;
+        font-size:$medida-principal;
+        display: flex;
+        justify-content: center;
+
+    }

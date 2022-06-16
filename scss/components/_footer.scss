@@ -1,0 +1,20 @@
+@import"../base/variables";
+/*css footer*/
+.footer{
+ 
+    background-color: $color-secundario;
+    border-top: 10px solid #000E55;
+    padding: 10px 0;
+    background-color: $color-secundario;
+    padding: 0px 0px 5px 0;
+    border-bottom: 10px solid #000E55;
+    margin: 0px 0px 20px 0;
+    color: $color-terciario;
+    h3{
+      padding-left: 10px;
+    }
+    .footer-item {
+        font-size: 15px;
+        color: $color-terciario;
+      }        
+}

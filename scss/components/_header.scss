@@ -1,0 +1,23 @@
+@import"../base/variables";
+
+/*css header*/
+.barra {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color:
+  $color-principal;
+  padding-bottom: 20px;
+  @media (max-width: 500px){   
+        display: block; 
+  }
+
+  img{
+      width: 6.5rem;
+      height: 5.5rem;
+
+  }
+
+}
+
+
