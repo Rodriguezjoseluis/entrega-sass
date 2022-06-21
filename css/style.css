@@ -161,3 +161,6 @@ main {
   .footer .footer-item {
     font-size: 15px;
     color: #A3BFD9; }
+
+.disclaimer {
+  display: none; }
