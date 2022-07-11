@@ -15,7 +15,7 @@
 main h2 {
   border: 2px solid #140303;
   background-color: #35539b;
-  color: #BFCDD9;
+  color: #f0f1f1;
   padding: 0.5rem;
   margin: 5% 70% 5% 0%;
   font-size: 1.5rem;
@@ -30,13 +30,16 @@ main h2 {
 
 main .texto-i {
   border: 2px solid #140303;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 25px 0;
   margin-bottom: 50px;
   background-color: #A3BFD9;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   display: flex;
   justify-content: center; }
+  @media (max-width: 600px) {
+    main .texto-i {
+      font-size: 0.8rem;
+      padding-left: 10px; } }
 
 /*css index*/
 main {
@@ -44,7 +47,7 @@ main {
   padding-bottom: 5px; }
 
 .main-card {
-  background-color: #BFCDD9;
+  background-color: #f0f1f1;
   margin: 5% 10% 5% 10%;
   padding: 2.5%;
   display: flex;
@@ -105,7 +108,7 @@ main {
 
 /*css servicios*/
 .servicios {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding-bottom: 5px; }
 
 /*css ventas*/
@@ -146,13 +149,15 @@ main {
 .medio-6 {
   grid-area: 2 / 3 / 3 / 4; }
 
+@media (max-width: 500px) {
+  .carousel {
+    display: none; } }
+
 /*css footer*/
 .footer {
   background-color: #35539b;
   border-top: 10px solid #000E55;
-  padding: 10px 0;
-  background-color: #35539b;
-  padding: 0px 0px 5px 0;
+  padding: 10px 0 5px 0;
   border-bottom: 10px solid #000E55;
   margin: 0px 0px 20px 0;
   color: #A3BFD9; }

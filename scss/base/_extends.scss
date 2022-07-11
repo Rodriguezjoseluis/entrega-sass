@@ -19,12 +19,15 @@
 
     %texto-i{
         border: 2px solid rgb(20, 3, 3);
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 25px 0;
         margin-bottom: 50px;
         background-color:$color-terciario;
         font-size:$medida-principal;
         display: flex;
         justify-content: center;
+        @media (max-width:600px) {
+            font-size: 0.8rem;
+            padding-left: 10px;
+        }
 
     }

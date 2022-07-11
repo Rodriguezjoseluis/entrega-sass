@@ -15,7 +15,7 @@ main{
     }
     
       .main-card {
-        background-color: #BFCDD9;
+        background-color: $color-letras;
         margin: 5% 10% 5% 10%;
         padding: 2.5%;
         display: flex;
@@ -123,6 +123,13 @@ p{
   .medio-4 { grid-area: 2 / 1 / 3 / 2; }
   .medio-4 { grid-area: 2 / 2 / 3 / 3; }
   .medio-6 { grid-area: 2 / 3 / 3 / 4; }
+
+  .carousel{
+    @media (max-width: 500px){
+      display:none;
+      
+    }
+  }
 
 
 
